@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 #include "functions.h"
 
 #define ATTEMPTS 3
@@ -30,11 +31,11 @@ int main(void) {
 
 			joke[strcspn(joke, "\n")] = '\0';
 
-			if (strcmp(joke, '\150') == 0) {
+			if (strcmp(joke, "Joke...now laugh.") == 0) {
 
 				goodJoke();
 				buzzin();
-				exit();
+				exit(0);
 			}
 			else {
 				printf("That wasnt funny...\n");
