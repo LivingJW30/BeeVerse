@@ -6,7 +6,7 @@ Flag format: hack@ucf{*flag-name*}
 ## Background
 The CEO of bWAPP never made it back from his vacation (RIP the Biggest Bee). The head of IT has been cleaning up the former CEO's computer and found an executable program that he can't make sense of. However, something feels important about it (It's labeled IMPORTANT). The IT manager has tasked you, the sole cyber intern, to find out what's so important about this “important” program. Do you have what it takes?
 
-Note: Windows isnt going to like you running a random .exe but trust there is NO MALWARE. I am not that smart!
+Note: Windows isnt going to like you running a random .exe but trust there is NO MALWARE. I am not that skilled!
 
 ## Guided questions
 1. What is an executable and what are the differences on Windows vs. Linux systems?
