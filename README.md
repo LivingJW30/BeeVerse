@@ -1,5 +1,5 @@
 # BeeVerse
-Cyber challenge for Hack@UCF general body meeting. Ping @Jack.py on Discord with the flag. 
+Cyber challenge for Hack@UCF general body meeting March 8th 2024. Ping @Jack.py on Discord with the flag or with any questions, comments, and concerns.
 
 Flag format: hack@ucf{*flag-name*}
 
