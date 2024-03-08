@@ -8,7 +8,7 @@ The CEO of bWAPP never made it back from his vacation (RIP the Biggest Bee). The
 
 Note: Windows isnt going to like you running a random .exe and will label it as a Trojan but trust there is NO MALWARE. I am not that skilled! To run this executable on Windows do the following:
 
-+ Click on and run the exe > click on defender pop-up > select "allow on device" in drop down window. 
++Click on and run the exe > click on defender pop-up > select "allow on device" in drop down window. 
 
 ## Guided questions
 1. What is an executable and what are the differences on Windows vs. Linux systems?
