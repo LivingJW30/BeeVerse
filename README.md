@@ -37,10 +37,16 @@ Note: You only need to submit the flag but hopefully these questions can help yo
 - There are also some useful reverse engineering tools that solely search programs for strings they may contain. Tools like floss and strings are commandline based tools that when ran with a binary file will dump hidden strings to your terminal. 
 
 ### Time to work...backwards?
-- Fire up a reverse engineering software of your choice and import the binary file. This write up uses Ghidra but many of the steps will be similar. 
-- Once the binary file is proccessed by Ghidra you will be greeted with a, not so friendly, user interface (UI). 
+- Fire up a reverse engineering software of your choice and import the binary file. This write up uses Ghidra but many of the steps will be similar in any other tool you use.
+
+- Once the binary file is proccessed by Ghidra you will be greeted with a daunting user Graphical User Interface (GUI). Let's break it down. In the listing box you will see the main disaassmebly that Ghidra pulled from hte program. This is all in assembly code and may not be as useful to us. Unless you know assembly like the back of your hand...that ain't me. There is also a console on the bottom that will display the I/O for any scripts that you may run, once again, a bit out of our scope here. On the sides of Ghidra's GUI there are useful search bars for different functions that were found. However, the most important panel is the decompiler on the right. This displays the translated assembly code in C. Though it's not perfect it is way better than the assembly. 
+
+- Easy enough Ghidra drops you in the main function and we can see this by the huge "Bee" ASCII art that is within print statements. Well does this mean we could also see the string that is our answer? Keep scrolling down and you will infact see a string, "Joke...now laugh." that is within a strcmp. In C a strcmp will compare two strings and return 0 if they are the same. Welp, that was easy! So it looks like that is the joke and it is comparing user input to the joke. We can also see a function call below the strcmp and if we follow that function, by clicking on it, you will see the answer is obscured in octal. 
+
+- You can also use the function graph tool Ghidra offers to display a tree like structure which depicts the paths that the program could take. You can even see, thus confirming, that our answer in the strcmp will cause the program to branch and call another function.
 
 ### Easy Linux CLI method
 - A pretty easy way to find the answer on a Linux machine without even needing to download those complex reverse engineering tools is by downloading the binary file onto your machine and running strings on it in the commandline. As you can see a huge list is spit out but only some of it is human readable english. Some of these strings you may recognize from running the program in a terminal. You can keep trying some of the lines of text into the porgram and eventually you'll hit the answer: Joke...now laugh.
 
+**Congrats intern! You found what was so important behind about this IMPORTANT program. This couldve been bad if we deleted such wise words from our, former, CEO.**
 -->
