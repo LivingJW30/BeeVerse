@@ -46,7 +46,7 @@ Note: You only need to submit the flag but hopefully these questions can help yo
 - You can also use the function graph tool Ghidra offers to display a tree like structure which depicts the paths that the program could take. You can even see, thus confirming, that our answer in the strcmp will cause the program to branch and call another function.
 
 ### Easy Linux CLI method
-- A pretty easy way to find the answer on a Linux machine without even needing to download those complex reverse engineering tools is by downloading the binary file onto your machine and running strings on it in the commandline. As you can see a huge list is spit out but only some of it is human readable english. Some of these strings you may recognize from running the program in a terminal. You can keep trying some of the lines of text into the porgram and eventually you'll hit the answer: Joke...now laugh.
+- A pretty easy way to find the answer on a Linux machine without even needing to download those complex reverse engineering tools is by downloading the binary file onto your machine and running strings on it in the commandline. As you can see a huge list is spit out but only some of it is human readable english. Some of these strings you may recognize from running the program in a terminal. You can keep trying some of the lines of text into the porgram and eventually you'll hit the answer: Joke...now laugh. Or, you can also just see that the flag was also found by strings.
 
 **Congrats intern! You found what was so important behind about this IMPORTANT program. This couldve been bad if we deleted such wise words from our, former, CEO.**
 -->
