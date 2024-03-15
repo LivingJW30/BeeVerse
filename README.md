@@ -18,10 +18,10 @@ Note: Windows isnt going to like you running a random .exe and will label it as 
 Note: You only need to submit the flag but hopefully these questions can help you work your way through the challenge.
 
 ## Resources
-- For Windows OS use the IMPORTANT file with the .exe extension
-- For Linux OS use the IMPORTANT file without the extension
-- [Ghidra](https://ghidra-sre.org/) was used to decompile the program
-- The source code will be attached so you can compare it to Ghidra's translation
+- For Windows OS use the IMPORTANT file with the .exe extension.
+- For Linux OS use the IMPORTANT file without the extension.
+- [Ghidra](https://ghidra-sre.org/) was used to decompile the program.
+- The source code will be attached so you can compare it to Ghidra's translation. The provided C code was used to contruct the Windows executable file.
 
 ## Write up
 ### BeeVerse Engineering?
