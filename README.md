@@ -25,6 +25,8 @@ Note: You only need to submit the flag but hopefully these questions can help yo
 
 ## Write up
 ### BeeVerse Engineering?
+
+![program](program.png)
 - After getting past Windows Defender screaming at you, you are presented with a simple program that runs in your terminal. It asks for you to tell it a joke that will make it laugh and gives you only three tries. Unless you know every joke in the playbook it would be nearly impossible to brute force this. So how are we supposed to get the program to think our joke is funny? Our answer, hidden within the title of this challenge, is reverse engineering. 
 
 - So what is [reverse engineering](https://www.zenarmor.com/docs/network-security-tutorials/what-is-reverse-engineering)? Well in our case it is the process of deconstructing software so that we can view the functionality of the source code. Often people use this for malware analysis and even for hacking games. For us, because this program is very uncomplicated we can use a tool to decompile the executable and see what the program finds funny thus unlocking a part of the code we can't access.
