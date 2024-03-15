@@ -21,6 +21,7 @@ Note: You only need to submit the flag but hopefully these questions can help yo
 - For Windows OS use the IMPORTANT file with the .exe extension
 - For Linux OS use the IMPORTANT file without the extension
 - [Ghidra](https://ghidra-sre.org/) was used to decompile the program
+- The source code will be attached so you can compare it to Ghidra's translation
 
 ## Write up
 ### BeeVerse Engineering?
