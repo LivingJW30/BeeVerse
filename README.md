@@ -23,9 +23,6 @@ Note: You only need to submit the flag but hopefully these questions can help yo
 - [Ghidra](https://ghidra-sre.org/) was used to decompile the program
 
 ## Write up
-*will be updated at challenge end*
-
-<!--
 ### BeeVerse Engineering?
 - After getting pass Windows Defender screaming at you, you are presented with a simple program that runs in your terminal. It asks for you to tell it a joke that will make it laugh and gives you only three tries. Unless you know every joke in the playbook it would be near impossible to brute force this. So how are we supposed to get the program to think our joke is funny? Our answer, hidden within the title of this challenge, reverse enginering. 
 
@@ -49,4 +46,3 @@ Note: You only need to submit the flag but hopefully these questions can help yo
 - A pretty easy way to find the answer on a Linux machine without even needing to download those complex reverse engineering tools is by downloading the binary file onto your machine and running strings on it in the commandline. As you can see a huge list is spit out but only some of it is human readable english. Some of these strings you may recognize from running the program in a terminal. You can keep trying some of the lines of text into the porgram and eventually you'll hit the answer: Joke...now laugh. Or, you can also just see that the flag was also found by strings.
 
 **Congrats intern! You found what was so important behind about this IMPORTANT program. This couldve been bad if we deleted such wise words from our, former, CEO.**
--->
