@@ -20,10 +20,10 @@ Note: You only need to submit the flag but hopefully these questions can help yo
 ## Resources
 - For Windows OS use the IMPORTANT file with the .exe extension.
 - For Linux OS use the IMPORTANT file without the extension.
-<!--- [Ghidra](https://ghidra-sre.org/) was used to decompile the program.
-- The source code will be attached so you can compare it to Ghidra's translation. The provided C code was used to contruct the Windows executable file.-->
+[Ghidra](https://ghidra-sre.org/) was used to decompile the program.
+- The source code will be attached so you can compare it to Ghidra's translation. The provided C code was used to contruct the Windows executable file.
 
-<!--## Write up
+## Write up
 ### BeeVerse Engineering?
 
 ![program](program.png)
@@ -52,4 +52,4 @@ Note: You only need to submit the flag but hopefully these questions can help yo
 ![strings](strings.png)
 - A pretty easy way to find the answer on a Linux machine without even needing to download those complex reverse engineering tools is by downloading the binary file onto your machine and running strings on it in the command line. As you can see a huge list is spit out but only some of it is human-readable English. Some of these strings you may recognize from running the program in a terminal. You can keep trying some of the lines of text in the program and eventually, you'll hit the answer: Joke...now laugh. Or, you can also just see that the flag was also found by strings.
 
-**Congrats intern! You found what was so important behind this IMPORTANT program. This could have been bad if we deleted such wise words from our, former, CEO.**-->
+**Congrats intern! You found what was so important behind this IMPORTANT program. This could have been bad if we deleted such wise words from our, former, CEO.**
